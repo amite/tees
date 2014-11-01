@@ -1,0 +1,52 @@
+/*accordion_main */
+.accordion_main{}
+
+.accordion {
+margin: 0 0 5px 0;
+padding: 0;
+list-style-type: none;
+}
+
+.accordion.bm-remove	{ margin-bottom: 0;    }
+.accordion.bm-smaller	{ margin-bottom: 5px;  }
+.accordion.bm-small		{ margin-bottom: 10px; }
+.accordion.bm-medium	{ margin-bottom: 20px; }
+.accordion.bm-large		{ margin-bottom: 30px; }
+.accordion.bm-large		{ margin-bottom: 40px; }
+
+.accordion li {
+margin: 0 0 5px 0;
+padding: 0;
+}
+
+.accordion li:last-child { margin-bottom: 0; }
+.accordion li .accordion-head { cursor: pointer; }
+.accordion li .accordion-head.active { font-weight: normal;  }
+
+/*	#Themes
+//	================================================== */
+.accordion-default.accordion li .accordion-head {
+border: 0px solid #DDD;
+padding: 6px 30px 6px 40px;
+background: #f40566;
+color: #fff;
+line-height: normal;
+position: relative;
+font-size:1.6em;
+font-family: 'INTRO';
+}
+.accordion-default.accordion li .accordion-head.active { color: #fff;  }
+.accordion-default.accordion li .accordion-head i {
+position: absolute;
+top: 10px;
+right: 5px;
+font-size:16px;
+}
+.accordion-default.accordion li .accordion-panel {
+border: 0px solid #DDD;
+border-top: 0;
+padding:15px;
+background: #e5e5e5;
+margin: 0 0 0 0px;
+color:#000;
+}
